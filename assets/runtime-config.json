@@ -1,0 +1,11 @@
+{
+  "apiBaseUrl": "http://localhost:8089",
+  "jiraTokenGenUrl": "http://localhost:8080/secure/ViewProfile.jspa?selectedTab=com.atlassian.pats.pats-plugin:jira-user-personal-access-tokens",
+  "confluenceTokenGenUrl": "http://localhost:8090/plugins/personalaccesstokens/usertokens.action",
+  "gitLabTokenGenUrl": "https://gitlab.com/-/user_settings/personal_access_tokens",
+  "copilotTokenGenUrl": "https://github.com/settings/personal-access-tokens",
+  "theme": {
+    "defaultTheme": "navy",
+    "allowedThemes": ["ruby", "terracotta", "forest", "olive", "navy", "petrol", "mulberry", "chestnut"]
+  }
+}
